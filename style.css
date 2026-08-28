@@ -35,18 +35,72 @@ html,body{
 
 #workingarea{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     height: 100vh;
     max-width: 1920px;
     border : 1px solid red;
 }
 
 #nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:auto;
     width: 100%;
     padding: 20px ;
 }
 
 #nav img{
-    height: 60px;
+    height: 80px;
     mix-blend-mode: screen;
+}
+
+#n-left, #n-right {
+    display:flex;
+    align-items:center;
+    gap: 40px;
+
+}
+
+#n-left a, #n-right a{
+     color:white;
+     font-family: Montserrat, sans-serif;
+     font-size:18px;
+     font-weight:700;
+     letter-spacing:1px;
+     text-decoration:none;
+     text-transform: uppercase;
+}
+
+
+#hero { 
+  margin-top: 20vh; 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+
+#hero-left {
+    min-width:50%;
+}
+
+#hero .element{
+    height: 7vw;
+    background-color:red;
+}
+#hero-left .element h1 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6vw;
+    font-weight:100;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+
+}
+
+#hero-right {
+    min-width:25%;
+    background-color:green;
 }
