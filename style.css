@@ -107,6 +107,11 @@ html,body{
     cursor:pointer;
     pointer-events:all;
     margin-top:2vw;
+    border-radius:8px;
+    border:none;
+    background-color:white;
+    color:black;
+    transition: all 0.3s ease-in-out;
 }
 
 #hero-left button pre {
@@ -114,6 +119,18 @@ html,body{
     font-size:3vw;
     margin-top:.5vw;
     font-family: "Bebas Neue", sans-serif;
+    background:transparent;
+
+}
+#hero-left button:hover {
+    background-color: #e0e0e0; 
+    transform: translateY(-3px); 
+         box-shadow: 0 8px 25px rgba(255, 30, 30, 0.5);
+}
+
+#hero-left button:active {
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 #hero-right {
