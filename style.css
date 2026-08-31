@@ -532,6 +532,7 @@ body {
 #nav a {
     font-size:12px;
 }
+
 #hero {
     flex-direction:column;
     gap:50px;
@@ -570,8 +571,6 @@ body {
     gap:50px;
     padding:60px 0;
 }
-
-
 @media (max-width:600px) {
 #nav {
     padding:15px 0;
@@ -590,6 +589,15 @@ body {
 }
 #nav a {
     font-size:10px;
+}
+#home-background {
+    position:absolute;
+    inset:0;
+    background-image:url("assets/fimg2.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    z-index:-2;
 }
 #hero {
     margin-top:12vh;
