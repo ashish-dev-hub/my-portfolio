@@ -29,6 +29,7 @@ body {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+     background-attachment:fixed;
     z-index:-2;
 }
 .page-background {
@@ -38,6 +39,7 @@ body {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    background-attachment:fixed;
     z-index:-2;
 }
 .overlay {
