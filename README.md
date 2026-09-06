@@ -1,27 +1,98 @@
-# Ashish Portfolio Website
+# 🚀 Ashish Portfolio
 
-A modern and responsive personal portfolio website built with **HTML, CSS**. It is designed to showcase my profile, experience, technical skills and projects with a bold, clean and modern interface.
+A modern and responsive personal portfolio website designed and developed to showcase my skills, experience, projects, and journey as a developer.
+
+The portfolio features a bold visual design, smooth navigation, responsive layouts, and a clean user interface built using HTML and CSS.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Visit My Portfolio:**  
+[View Live Website](https://your-portfolio-link.vercel.app)
+
+---
+
+## 📸 Website Preview
+
+### 🏠 Home
+
+![Home Section](./assets/screenshots/home.png)
+
+---
+
+### 👨‍💻 About Me
+
+![About Section](./assets/screenshots/about.png)
+
+---
+
+### 💼 Experience
+
+![Experience Section](./assets/screenshots/experience.png)
+
+---
+
+### 🛠️ Skills
+
+![Skills Section](./assets/screenshots/skills.png)
+
+---
+
+### 🚀 My Work
+
+![Work Section](./assets/screenshots/work.png)
+
+---
+
+### 📬 Contact
+
+![Contact Section](./assets/screenshots/contact.png)
+
+---
 
 ## ✨ Features
 
-- Modern portfolio design
-- Responsive layout for desktop, tablet and mobile
-- Home, About, Experience, Skills, Work and Contact sections
-- Custom background images
+- Modern and bold portfolio design
+- Fully responsive layout
 - Smooth scrolling navigation
+- Home, About, Experience, Skills, Work, and Contact sections
+- Custom background images and visual effects
 - Interactive buttons and project cards
 - Responsive contact form
-- EmailJS-ready contact form
+- Email functionality powered by EmailJS
 - Clean and lightweight frontend structure
+
+---
 
 ## 🛠️ Technologies Used
 
 - HTML
 - CSS
-
-- Google Fonts
-
+- JavaScript
+- EmailJS
 - Git & GitHub
+
+---
+
+## 📧 EmailJS Integration
+
+This portfolio uses **EmailJS** to make the contact form functional.
+
+EmailJS allows the website to send emails directly from the frontend without requiring a dedicated backend server.
+
+When a visitor fills out the contact form and clicks **Send Message**, the submitted information, such as:
+
+- Name
+- Email
+- Subject
+- Message
+
+is sent directly to my email using EmailJS.
+
+This makes it possible for visitors to contact me directly through the portfolio website.
+
+---
 
 ## 📂 Project Structure
 
@@ -30,81 +101,19 @@ portfolio/
 │
 ├── index.html
 ├── style.css
+├── script.js
+├── README.md
 │
 └── assets/
     ├── fimg.png
     ├── bg-img.png
     ├── ash-labs.png
-    └── favicon_logo.png
-
-```
-
-## 🎨 Sections
-
-### Home
-Landing section with the main introduction, navigation and a short personal description.
-
-### About
-Introduces my approach to development, creativity and problem solving.
-
-### Experience
-Highlights my web development experience and learning journey.
-
-### Skills
-Showcases technical skills including HTML, CSS, JavaScript, Git&Github, Python, EDA, C/C++ and Vercell.
-
-### Work
-A selected projects section for showcasing personal and development projects.
-
-### Contact
-A contact form where visitors can enter their name, email, subject and message.
-
-
-## 🚀 Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/ashish-dev-hub/my-portfolio.git
-```
-
-Go to the project directory:
-
-```bash
-cd your-repository-name
-```
-
-Open `index.html` in your browser.
-
-For development, **VS Code with Live Server** is recommended.
-
-## 🌐 Deployment
-
-The project can be deployed using:
-
-- GitHub Pages
-- Vercel
-- Netlify
-
-## 📱 Responsive Design
-
-The website includes responsive CSS media queries to adapt the layout for different screen sizes and devices.
-
-## 🔮 Future Improvements
-
-- Add advanced page animations
-- Add project screenshots and live links
-- Improve mobile navigation
-- Add more interactive UI effects
-- Expand project and experience details
-- Complete EmailJS integration
-
-## 👨‍💻 Author
-
-**Ashish Kumar Nishad**
-
-B.Tech - Artificial Intelligence & Machine Learning
-
-Interested in Web Development, Full-Stack Development and Machine Learning.
-
-.
+    ├── favicon_logo.png
+    │
+    └── screenshots/
+        ├── home.png
+        ├── about.png
+        ├── experience.png
+        ├── skills.png
+        ├── work.png
+        └── contact.png
