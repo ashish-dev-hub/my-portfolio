@@ -68,3 +68,36 @@ contactForm.addEventListener("submit", function (event) {
     });
 
 });
+
+
+const menuToggle = document.getElementById("menu-toggle");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+
+    const icon = menuToggle.querySelector("i");
+
+    if (mobileMenu.classList.contains("active")) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+    } 
+    else {
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+
+    }
+});
+
+
+const mobileLinks = document.querySelectorAll("#mobile-menu a");
+
+mobileLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+        const icon = menuToggle.querySelector("i");
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+    });
+
+});
