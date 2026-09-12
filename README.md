@@ -17,7 +17,7 @@ The portfolio features a bold visual design, smooth navigation, responsive layou
 
 ### 🏠 Home
 
-![Home Section](./assets/screenshots/home.png)
+![Home Section](./assets/screenshots/home.jpeg)
 
 ---
 
