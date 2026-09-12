@@ -716,7 +716,7 @@ body {
 #home-background {
     position:absolute;
     inset:0;
-    background-image:url("assets/mobimg.png");
+    background-image:url("assets/crimsonhome.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -747,7 +747,7 @@ body {
 .page-background {
     position:absolute;
     inset:0;
-    background-image:url("assets/mobfimgo.png");
+    background-image:url("assets/a.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
