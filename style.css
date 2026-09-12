@@ -731,7 +731,7 @@ body {
 }
 #hero-left .element h1,
 #hero-left .element h1 span {
-    font-size:clamp(42px,7vw,52px);
+    font-size:40px;
     line-height:0.88;
 }
 #hero .element {
@@ -739,7 +739,7 @@ body {
     overflow:visible;
 }
 .hero-button {
-    margin-top:40px;
+    margin-top:80px;
     padding:9px 20px;
     font-size:20px;
     border-radius:6px;
